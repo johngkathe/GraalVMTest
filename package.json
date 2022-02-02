@@ -1,0 +1,22 @@
+{
+  "name": "graalvm",
+  "version": "1.0.0",
+  "description": "GraalVM test",
+  "main": "index.js",
+  "scripts": {
+    "graal": "cross-env NODE_PATH=D:/GraalVM/graalvm-ce-java17-22.1.0-dev/bin/node.cmd node --polyglot --jvm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johngkathe/GraalVMTest.git"
+  },
+  "author": "John G. Kathe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johngkathe/GraalVMTest/issues"
+  },
+  "homepage": "https://github.com/johngkathe/GraalVMTest#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
