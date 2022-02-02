@@ -6,7 +6,7 @@ To all who want to look into playing around with this code, which in reality is 
 To get Node.js functionality for JavaScript, the following steps must be taken, as shown in Oracle's documentation: https://github.com/oracle/graaljs/tree/master/docs/user
 
 
-I used the cross-env library from npm (https://www.npmjs.com/package/cross-env) to enable cross OS command line functionality for my script to call the NODE_PATH in package.json, which replaces the native Node path with the GraalVM Node path as follows:
+I used the cross-env package from npm (https://www.npmjs.com/package/cross-env) to enable cross OS command line functionality for my script to call the NODE_PATH in package.json, which replaces the native Node path with the GraalVM Node path as follows:
 
 
 (Naturally, you would change the path to fit your file path)
